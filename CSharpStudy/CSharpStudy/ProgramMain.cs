@@ -16,6 +16,9 @@ namespace CSharpStudy
             observer.Add(new DebugMessageTest());
             observer.Add(new AppDomainTest());
             observer.Add(new ReflectionTest());
+            observer.Add(new GenericTest());
+            observer.Add(new YieldTest());
+            observer.Add(new AsyncAwaitTest());
 
             observer.Start();
         }

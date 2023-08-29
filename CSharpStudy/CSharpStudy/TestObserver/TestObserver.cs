@@ -15,14 +15,17 @@ namespace CSharpStudy
         {
             this.opserverList = new ArrayList();
         }
+
         public void Add(TestObserverInterface opserver)
         {
             opserverList.Add(opserver);
         }
+
         public void Start()
         {
             foreach (TestObserverInterface opserver in this.opserverList)
             {
+                Console.WriteLine("");
                 opserver.Run();
             }
         }

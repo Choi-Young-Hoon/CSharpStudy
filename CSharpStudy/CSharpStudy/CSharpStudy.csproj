@@ -44,10 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Study\AppDomainTest.cs" />
+    <Compile Include="Study\AsyncAwaitTest.cs" />
     <Compile Include="Study\DebugMessageTest.cs" />
     <Compile Include="ProgramMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Study\GenericTest.cs" />
     <Compile Include="Study\ReflectionTest.cs" />
+    <Compile Include="Study\YieldTest.cs" />
     <Compile Include="TestObserver\TestObserver.cs" />
     <Compile Include="TestObserver\TestObserverInterface.cs" />
   </ItemGroup>
