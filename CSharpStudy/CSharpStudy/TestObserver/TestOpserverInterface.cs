@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy
 {
-    internal class Program
+    public interface TestOpserverInterface
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void Run();
     }
 }
