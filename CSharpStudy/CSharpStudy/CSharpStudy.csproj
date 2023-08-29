@@ -43,11 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DebugMessage\DebugMessageTest.cs" />
+    <Compile Include="Study\AppDomainTest.cs" />
+    <Compile Include="Study\DebugMessageTest.cs" />
     <Compile Include="ProgramMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestObserver\TestOpserver.cs" />
-    <Compile Include="TestObserver\TestOpserverInterface.cs" />
+    <Compile Include="Study\ReflectionTest.cs" />
+    <Compile Include="TestObserver\TestObserver.cs" />
+    <Compile Include="TestObserver\TestObserverInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

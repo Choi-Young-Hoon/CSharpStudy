@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpStudy.Study;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,11 +11,13 @@ namespace CSharpStudy
     {
         static void Main(string[] args)
         {
-            TestOpserver opserver = new TestOpserver();
+            TestObserver observer = new TestObserver();
 
-            opserver.Add(new DebugMessageTest());
+            observer.Add(new DebugMessageTest());
+            observer.Add(new AppDomainTest());
+            observer.Add(new ReflectionTest());
 
-            opserver.Start();
+            observer.Start();
         }
     }
 }

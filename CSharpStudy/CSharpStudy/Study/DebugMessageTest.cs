@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy
 {
-    internal class DebugMessageTest : TestOpserverInterface
+    internal class DebugMessageTest : TestObserverInterface
     {
-        void TestOpserverInterface.Run()
+        void TestObserverInterface.Run()
         {
 #if DEBUG
             Console.WriteLine("Debug Message 1!!");

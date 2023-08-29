@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSharpStudy.Study
+{
+    internal class ReflectionTest : TestObserverInterface
+    {
+        void TestObserverInterface.Run()
+        {
+
+        }
+    }
+}

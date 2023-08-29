@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy
 {
-    internal class TestOpserver
+    internal class TestObserver
     {
         ArrayList opserverList;
 
-        public TestOpserver()
+        public TestObserver()
         {
             this.opserverList = new ArrayList();
         }
-        public void Add(TestOpserverInterface opserver)
+        public void Add(TestObserverInterface opserver)
         {
             opserverList.Add(opserver);
         }
         public void Start()
         {
-            foreach (TestOpserverInterface opserver in this.opserverList)
+            foreach (TestObserverInterface opserver in this.opserverList)
             {
                 opserver.Run();
             }
