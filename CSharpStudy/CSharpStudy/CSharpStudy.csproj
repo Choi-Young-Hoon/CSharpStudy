@@ -49,6 +49,7 @@
     <Compile Include="ProgramMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Study\GenericTest.cs" />
+    <Compile Include="Study\LinQTest.cs" />
     <Compile Include="Study\ReflectionTest.cs" />
     <Compile Include="Study\YieldTest.cs" />
     <Compile Include="TestObserver\TestObserver.cs" />

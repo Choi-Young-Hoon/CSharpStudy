@@ -19,6 +19,7 @@ namespace CSharpStudy
             observer.Add(new GenericTest());
             observer.Add(new YieldTest());
             observer.Add(new AsyncAwaitTest());
+            observer.Add(new LinQTest());
 
             observer.Start();
         }
