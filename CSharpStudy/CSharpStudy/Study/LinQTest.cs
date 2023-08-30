@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy.Study
 {
-    internal class LinQTest : TestObserverInterface
+    internal class LinQTest : ITestObserver
     {
-        void TestObserverInterface.Run()
+        void ITestObserver.Run()
         {
             LinqTest1();
             LinqTest2();

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy.Study
 {
-    internal class ReflectionTest : TestObserverInterface
+    internal class ReflectionTest : ITestObserver
     {
-        void TestObserverInterface.Run()
+        void ITestObserver.Run()
         {
 
         }

@@ -7,9 +7,9 @@ using System.Reflection;
 
 namespace CSharpStudy.Study
 {
-    internal class AppDomainTest : TestObserverInterface
+    internal class AppDomainTest : ITestObserver
     {
-        void TestObserverInterface.Run()
+        void ITestObserver.Run()
         {
             GetAssemblyList();
         }

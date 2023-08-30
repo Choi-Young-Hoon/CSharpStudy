@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy.Study
 {
-    internal class AsyncAwaitTest : TestObserverInterface
+    internal class AsyncAwaitTest : ITestObserver
     {
-        void TestObserverInterface.Run()
+        void ITestObserver.Run()
         {
             AwaitRead();
 

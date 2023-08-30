@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy
 {
-    internal class DebugMessageTest : TestObserverInterface
+    internal class DebugMessageTest : ITestObserver
     {
-        void TestObserverInterface.Run()
+        void ITestObserver.Run()
         {
 
             //디버깅 시에만 컴파일시 추가되고 릴리즈시에는 제거되는 함수

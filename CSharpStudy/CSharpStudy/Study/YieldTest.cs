@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy.Study
 {
-    internal class YieldTest : TestObserverInterface
+    internal class YieldTest : ITestObserver
     {
-        void TestObserverInterface.Run()
+        void ITestObserver.Run()
         {
             foreach (int n in YieldClass.Next(100))
             {

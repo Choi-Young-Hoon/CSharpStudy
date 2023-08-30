@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy
 {
-    public interface TestObserverInterface
+    public interface ITestObserver
     {
         void Run();
     }

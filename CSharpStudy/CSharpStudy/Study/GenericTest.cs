@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpStudy.Study
 {
-    internal class GenericTest : TestObserverInterface
+    internal class GenericTest : ITestObserver
     {
-        void TestObserverInterface.Run()
+        void ITestObserver.Run()
         {
             GenericStack<int> intStack = new GenericStack<int>(10);
             intStack.Push(1);
