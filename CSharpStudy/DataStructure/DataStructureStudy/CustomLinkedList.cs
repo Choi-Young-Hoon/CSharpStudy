@@ -32,7 +32,7 @@ namespace DataStructure.DataStructure
         }
 
         private Node _rootNode;
-        private Node _backNode;
+        private Node _lastNode;
         public int Count { get; set; }
         
 
@@ -48,13 +48,13 @@ namespace DataStructure.DataStructure
             if (this.Count == 0)
             {
                 this._rootNode = node;
-                this._backNode = node;
+                this._lastNode = node;
             }
             else
             {
-                this._backNode.Next = node;
-                node.Prev = this._backNode;
-                this._backNode = node;
+                this._lastNode.Next = node;
+                node.Prev = this._lastNode;
+                this._lastNode = node;
             }
             this.Count++;
         }
@@ -78,7 +78,7 @@ namespace DataStructure.DataStructure
         public void Clear()
         {
             this._rootNode = null;
-            this._backNode = null;
+            this._lastNode = null;
             this.Count = 0;
         }
 

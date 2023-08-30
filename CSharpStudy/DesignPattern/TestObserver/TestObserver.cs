@@ -9,21 +9,21 @@ namespace CSharpStudy
 {
     internal class TestObserver
     {
-        ArrayList _opserverList;
+        ArrayList __opserverList;
 
         public TestObserver()
         {
-            this._opserverList = new ArrayList();
+            this.__opserverList = new ArrayList();
         }
 
         public void Add(TestObserverInterface opserver)
         {
-            _opserverList.Add(opserver);
+            __opserverList.Add(opserver);
         }
 
         public void Start()
         {
-            foreach (TestObserverInterface opserver in this._opserverList)
+            foreach (TestObserverInterface opserver in this.__opserverList)
             {
                 Console.WriteLine("");
                 opserver.Run();
